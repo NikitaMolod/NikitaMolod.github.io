@@ -10,6 +10,35 @@
     <link rel="stylesheet" href="fonts/fontawesome-pro-5.14.0-web/css/fontawesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 
+    <script type="text/javascript">
+        (function(m, e, t, r, i, k, a) {
+            m[i] = m[i] || function() {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(70398208, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/70398208" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S6VQSFSXCM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-S6VQSFSXCM');
+    </script>
     <title>Sporkcatering</title>
 </head>
 
@@ -32,7 +61,7 @@
 
             <div class="header_nav row center  fs18 main_text ">
                 <div>
-                    <a href="mailto:nktmolodtsov@gmail.com">Главная</a></div>
+                    <a href="#">Главная</a></div>
                 <div>
                     <a href="#">О нас</a></div>
                 <div>
@@ -195,11 +224,11 @@
                 <h2 class="fs35 main_text p20 "><span class="submain_text">Sporkcatering</span> - хорош для вас</h2>
 
                 <p class="helper_text p20 fs24 ">Наша команда поможет составить меню под любой бюджет и требования. Мы очень ответственно относимся, как к масштабному мероприятию на несколько десятков человек ,так и к романтическому вечеру влюбленно пары . Каждый клиент для нас важен
-                    поэтому команда Sporkcatering будет вести ваше мероприятие от первой встречи до последнего гостя ,чтобы каждое событие было уникальным и только вашим. Мы формируем и рассчитываем меню в течении 1 рабочего дня исходя из желаемого бюджета.</p>
+                    поэтому команда Sporkcatering будет вести ваше мероприятие от первой встречи до последнего гостя ,чтобы каждое событие было уникальным и только вашим. </p>
 
                 <div class="warranty_btn mt15 ">
                     <div class="header_button row center fs18 ">
-                        <button class=" btn_header p15 fs18  ">Оставьте заявку</button>
+                        <button onclick="showModal()" class=" btn_header p15 fs18  ">Оставьте заявку</button>
                     </div>
 
                 </div>
@@ -211,7 +240,7 @@
         <!-- warranty end -->
 
         <!-- offers start -->
-        <section class="offers row center ">
+        <!-- <section class="offers row center ">
 
 
 
@@ -221,7 +250,7 @@
 
 
 
-        </section>
+        </section> -->
         <!-- offers  end -->
 
 
@@ -247,9 +276,10 @@
 
         <!-- services info  start-->
         <div class="servisec_info column center ">
-            <div><span style="font-family: Raleway; " class="fs24 uppercase ">Lorem Ipsam</span> <span class="uppercase fs24 ">Why do we use it?</span></div>
-            <div class=" p20 "><span>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
-                Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc</span>
+            <div><span style="font-family: Raleway; " class="fs24 uppercase ">Почему Sporkcatering?</span> </div>
+            <div class=" p20 "><span class="fs18">Мы формируем и рассчитываем меню в течение одного рабочего дня исходя из желаемого
+                бюджета. Наши опытные сотрудники всегда окажут помощь в планировании и
+                координации мероприятия и учтут все необходимые нюансы.</span>
             </div>
         </div>
         <!-- services info end-->
@@ -257,25 +287,25 @@
 
         <!-- services start -->
         <div class="servisec row center mb15 p20 ">
-            <div class="servisec_icons column center p15 ">
-                <img src="assets/img/svg/002-buffet.svg ">
-                <div class="fs18 mt10 ">Банкет</div>
+            <div style="width: 166px;" class="servisec_icons column center p15 ">
+                <img src="assets/img/svg/004-waiter.svg">
+                <div class="fs18 mt10 ">Опытный персонал</div>
             </div>
             <div class="servisec_icons column center p15 ">
-                <img src="assets/img/svg/006-coffee.svg ">
-                <div class="fs18 mt10 ">Кофе-паузы</div>
+                <img src="assets/img/svg/003-diet.svg ">
+                <div class="fs18 mt10 ">Свежые продукты</div>
             </div>
             <div class="servisec_icons column center p15 ">
-                <img src="assets/img/svg/009-barbeque.svg ">
-                <div class="fs18 mt10 ">Барбекю</div>
+                <img src="assets/img/svg/007-menu.svg ">
+                <div class="fs18 mt10 ">Большой ассортимент блюд</div>
             </div>
             <div class="servisec_icons column center p15 ">
-                <img src="assets/img/svg/015-birthday-cake.svg ">
-                <div class="fs18 mt10 ">Дни Рождения</div>
+                <img src="assets/img/svg/006-map.svg ">
+                <div class="fs18 mt10 ">Выезд в любой город</div>
             </div>
             <div class="servisec_icons column center p15 ">
-                <img src="assets/img/svg/023-vegetables.svg ">
-                <div class="fs18 mt10 ">Вегетарианские<br>мероприятия</div>
+                <img src="assets/img/svg/008-castle.svg ">
+                <div class="fs18 mt10 ">Уникальные площадки</div>
             </div>
 
 
@@ -291,18 +321,19 @@
 
 
             <p>
-                <a name="slider"></a>
+                <a name="slider "></a>
             </p>
 
 
             <div class="slider center column">
+                <h2 class="submain_text fs24">Что о наc говорят</h2>
 
-                <div class="item ">
+                <div class="item mt25">
                     <div class="review_wrapper">
                         <div class="review row">
                             <img src="assets/img/svg/quotes.svg">
-                            <p class="fs18 main_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet suscipit tenetur nesciunt architecto eum quibusdam, voluptas quisquam. Nisi nemo dolores cupiditate. Quis sequi necessitatibus voluptatem unde, velit cum cupiditate
-                                consectetur!
+                            <p class="fs18 main_text">Приятные ребята, обслуживающие наше мероприятие, оперативно решали вопросы. Обалденная еда: свежайшее мясо, приготовленное с пылу с жару, тающие во рту рулетики, овощи-гриль - это вообще бомба, еще супер вкусная картошечка,
+                                а десерты – таких нежных вкусняшечек еще поискать… Спасибо, Шеф-повар! Вы лучшие!
                             </p>
                         </div>
 
@@ -315,8 +346,8 @@
                     <div class="review_wrapper">
                         <div class="review row">
                             <img src="assets/img/svg/quotes.svg">
-                            <p class="fs18 main_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet suscipit tenetur nesciunt architecto eum quibusdam, voluptas quisquam. Nisi nemo dolores cupiditate. Quis sequi necessitatibus voluptatem unde, velit cum cupiditate
-                                consectetur!
+                            <p class="fs18 main_text">Спасибо большое Sporkcatering и персонально Екатерине. Не первый раз к вам обращаюсь и всегда все на самом высоком уровне: как проведение мероприятий на 100 человек, так и на 5, как получилось в этом году. Все очень вкусно,
+                                красиво, оперативно и приятно общаться. Вы лучшие!
                             </p>
                         </div>
                     </div>
@@ -327,8 +358,7 @@
                     <div class="review_wrapper">
                         <div class="review row">
                             <img src="assets/img/svg/quotes.svg">
-                            <p class="fs18 main_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet suscipit tenetur nesciunt architecto eum quibusdam, voluptas quisquam. Nisi nemo dolores cupiditate. Quis sequi necessitatibus voluptatem unde, velit cum cupiditate
-                                consectetur!
+                            <p class="fs18 main_text">Прекрасное обслуживание, сервис, подача. Еда - это не еда в обычном представлении, это шедевры искусства, всему нашему коллективу очень понравилось, спасибо!
                             </p>
                         </div>
                     </div>
@@ -341,8 +371,7 @@
                         <div class="review row">
                             <img src="assets/img/svg/quotes.svg">
 
-                            <p class="fs18 main_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet suscipit tenetur nesciunt architecto eum quibusdam, voluptas quisquam. Nisi nemo dolores cupiditate. Quis sequi necessitatibus voluptatem unde, velit cum cupiditate
-                                consectetur!
+                            <p class="fs18 main_text">Приятно работать с профессионалами, все нюансы учтены и наши пожелания, заранее все подготовлено и банкеты проходят без накладок. Для бизнес-мероприятий это принципиально
                             </p>
                         </div>
                     </div>
@@ -353,8 +382,8 @@
                     <div class="review_wrapper">
                         <div class="review row">
                             <img src="assets/img/svg/quotes.svg">
-                            <p class="fs18 main_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet suscipit tenetur nesciunt architecto eum quibusdam, voluptas quisquam. Nisi nemo dolores cupiditate. Quis sequi necessitatibus voluptatem unde, velit cum cupiditate
-                                consectetur!
+                            <p class="fs18 main_text">Повара Sporkcatering – настоящие ассы, не говоря уже про организаторов и менеджеров на площадках. Создать праздник на ровном месте удалось всего за 3 дня! Честно говоря, такое развитие событий было неожиданным, и никто не ожидал,
+                                что уровень организации, несмотря на спешку, будет таким высоким. Есть печальный опыт сотрудничества с другой компанией… там за неделю подготовились значительно хуже
                             </p>
                         </div>
                     </div>
@@ -365,8 +394,7 @@
                     <div class="review_wrapper">
                         <div class="review row">
                             <img src="assets/img/svg/quotes.svg">
-                            <p class="fs18 main_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet suscipit tenetur nesciunt architecto eum quibusdam, voluptas quisquam. Nisi nemo dolores cupiditate. Quis sequi necessitatibus voluptatem unde, velit cum cupiditate
-                                consectetur!
+                            <p class="fs18 main_text">Уже после первого сотрудничества с Sporkcatering сложилось хорошее впечатление о компании. Здесь действительно быстро могут организовать праздник с нуля! Теперь если хотим что-то отметить, то обращаемся только сюда!
                             </p>
                         </div>
                     </div>
@@ -377,8 +405,8 @@
                     <div class="review_wrapper">
                         <div class="review row">
                             <img src="assets/img/svg/quotes.svg">
-                            <p class="fs18 main_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet suscipit tenetur nesciunt architecto eum quibusdam, voluptas quisquam. Nisi nemo dolores cupiditate. Quis sequi necessitatibus voluptatem unde, velit cum cupiditate
-                                consectetur!
+                            <p class="fs18 main_text">Здравствуйте! Хочу поблагодарить вашу команду и Вас конечно 🙂 все было очень вкусно, гости все спрашивали, где я заказывала, сервировка поразила конечно, все так продумано... СУПЕР!!!! счастлива, что к вам обратилась БЛАГОДАРЮ
+                                ВАС!!!! :-*
                             </p>
                         </div>
                     </div>
@@ -427,18 +455,27 @@
         <section class="blog_wrapper row center around ">
             <div class="blog blog_img_1 ">
                 <div class="blog_info ">
-                    <div class="blog_info_sticker "></div>
+                    <div class="blog_info_sticker column center">
+                        <img style="width: 100%;" src="assets/img/logo/33.png">
+
+                    </div>
                     <div></div>
                 </div>
             </div>
             <div class="blog blog_img_2 ">
                 <div class="blog_info ">
-                    <div class="blog_info_sticker "></div>
+                    <div class="blog_info_sticker column center">
+                        <img style="width: 100%;" src="assets/img/logo/33.png">
+
+                    </div>
                 </div>
             </div>
             <div class="blog blog_img_3 ">
                 <div class="blog_info ">
-                    <div class="blog_info_sticker "></div>
+                    <div class="blog_info_sticker column center">
+                        <img style="width: 100%;" src="assets/img/logo/33.png">
+
+                    </div>
                 </div>
             </div>
         </section>
@@ -449,9 +486,9 @@
 
         <!-- services info  start-->
         <div class="servisec_info column center ">
-            <div><span style="font-family: Raleway; " class="fs24 uppercase ">Lorem Ipsam</span> <span class="uppercase fs24 ">Why do we use it?</span></div>
-            <div class=" p20 "><span>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
-                Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc</span>
+            <div><span style="font-family: Raleway; " class="fs24 uppercase "></span> <span class="uppercase fs24 "></span></div>
+            <div class=" p20 fs24"><span>Команда Sporkcatering – это профессионалы с многолетним стажем, которые любят свою
+                работу и уважают каждого клиента.</span>
             </div>
         </div>
         <!-- services info end-->
@@ -501,14 +538,15 @@
                 <div class="footer_down_side row evenly">
                     <div class="column">
                         <h6 class="submain_text uppercase fs14">EMAIL</h6>
-                        <p class="mt10 helper_text">Sporkcatering@gmail.com</p>
+                        <p class="mt10 helper_text"><a href="mailto:sporkcatering@mail.ru">sporkcatering@mail.ru</a></p>
                     </div>
                     <div>
                         <h6 class="submain_text uppercase fs14">Телефон</h6>
-                        <p class="mt10 helper_text">+375-44-111-11-11 +375-29-222-22-22</p>
+                        <p class="mt10 helper_text"><a href="tel:+375336370922">+375-33-637-09-22</a>
+                        </p>
                     </div>
                     <div class="social">
-                        <a href="#"><img src="assets/img/svg/007-instagram-1.svg"></a>
+                        <a href="https://www.instagram.com/sporkcatering/" target="_blank"><img src="assets/img/svg/007-instagram-1.svg"></a>
                     </div>
 
                 </div>
@@ -528,7 +566,7 @@
                         <input type="tel" placeholder="Телефон">
                         <input type="email" placeholder="E-mail">
 
-                        <button style="width: 59%;" class=" btn_header p15 fs18 ">Оставьте заявку</button>
+                        <button onclick="showModal()" style="width: 59%;" class=" btn_header p15 fs18 ">Оставьте заявку</button>
 
 
                     </form>
